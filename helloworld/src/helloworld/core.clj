@@ -1,5 +1,12 @@
-(ns helloworld.core)
+(ns helloworld.core
+ (:import [jline.console ConsoleReader]))
 
 (defn -main []
-  "I can say 'Hello World'."
-  (println "Hello, World!"))
+  (print "Enter a keystroke: ")
+  (flush)
+  (let [cr (ConsoleReader.) 
+        keyint (.readCharacter cr)]
+    (println (format "Got %d ('%c')!" keyint (char keyint)))
+    (if (= keyint 97) (print "Son iguales") (print "son distintos")) 
+    (flush)))
+
