@@ -4,7 +4,8 @@ FIXME: write description
 
 ## Usage
 
-FIXME: write
+Para ejecutar el detector de Alzheimer debe ejecutar la siguiente linea en consola en donde se encuentra el project.clj: 
+    - $ lein trampline run
 
 ## License
 
