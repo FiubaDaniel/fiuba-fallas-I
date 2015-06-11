@@ -5,7 +5,7 @@ FIXME: write description
 ## Usage
 
 Para ejecutar el detector de Alzheimer debe ejecutar la siguiente linea en consola en donde se encuentra el project.clj: 
-    - $ lein trampline run
+    - $ lein trampoline run
 
 ## License
 
